@@ -4,6 +4,7 @@ import MatematicasMagicas from './components/MatematicasMagicas'
 import TarjetaUsuario from './components/TarjetaUsuario'
 import BotonLike from './components/BotonLike'
 import PostConEfecto from './components/PostConEfecto'
+import GestorMisiones  from './components/GestorMisiones'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       
       <BotonLike />
       <PostConEfecto />
+      <GestorMisiones />
 
     </div>
   )
