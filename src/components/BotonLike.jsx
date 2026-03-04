@@ -22,7 +22,7 @@ function BotonLike(){
                 </button>
 
                 {/* Un poco de logica extra */}
-                {Likes > 10 && <p>¡Wow, esto se esta volviendo viral!</p>}
+                {likes > 10 && <p>¡Wow, esto se esta volviendo viral!</p>}
                 </div>
 
     );
