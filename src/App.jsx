@@ -2,6 +2,7 @@ import React from 'react'
 import Saludo from './components/Saludo'
 import MatematicasMagicas from './components/MatematicasMagicas'
 import TarjetaUsuario from './components/TarjetaUsuario'
+import BotonLike from './components/BotonLike'
 
 
 const App = () => {
@@ -16,6 +17,8 @@ const App = () => {
       <TarjetaUsuario nombre="Marcos" juegoFavorito="MInecraft" />
       <TarjetaUsuario nombre="Sofia" juegoFavorito="Elden Ring" />
       
+      <BotonLike />
+
     </div>
   )
 }
